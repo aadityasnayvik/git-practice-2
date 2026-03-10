@@ -4,7 +4,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import logo from "./assets/images/logo.svg";
-                       
+
 export default function App() {
   return (
     <>
@@ -30,7 +30,7 @@ export default function App() {
                 <Link className="nav-link" to="/">
                   Home
                 </Link>
-              </li>
+              </li> 
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   About
@@ -81,12 +81,12 @@ export function Count() {
   const [count, setCount] = useState(2);
   return (
     <>
-      <div>
-      <button onClick={() => setCount(count + 1)} className="btn btn-primary">
-        Add to card 
-      </button>
-      &nbsp; &nbsp;{count}
-      </div>
+        <div>
+            <button onClick={() => setCount(count + 1)} className="btn btn-primary">
+                Add to card
+            </button>
+          &nbsp; &nbsp;{count}
+        </div>
     </>
   );
 }
@@ -103,6 +103,7 @@ export function Increase() {
     </>
   );
 }
+
 // decrease count
 export function Decrease() {
   const [DCount, DecreaseCount] = useState(50);
@@ -114,6 +115,7 @@ export function Decrease() {
     </>
   );
 }
+
 //multiply
 export function Multiply() {
   const [MCount, MultiplyCount] = useState(50);
