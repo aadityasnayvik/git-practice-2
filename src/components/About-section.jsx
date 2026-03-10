@@ -1,4 +1,4 @@
-import image from "../assets/images/about-img.webp";
+// import image from "../assets/images/about-img.webp";
 
 export default function AboutSection(){
     return <>
@@ -8,7 +8,7 @@ export default function AboutSection(){
 
                 <div className="col-6">
                     <div>
-                        <img src={image} alt="About NASA" className="img-fluid" />
+                        {/* <img src={image} alt="About NASA" className="img-fluid" /> */}
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ export default function AboutSection(){
                 <div className="row">
                 <div className="col-6">
                     <div>
-                        <img src={image} alt="About NASA" className="img-fluid" />
+                        {/* <img src={image} alt="About NASA" className="img-fluid" /> */}
                     </div>
                 </div>
 

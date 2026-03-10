@@ -1,4 +1,4 @@
-import videoSrc from "../assets/images/video.mp4";
+// import videoSrc from "../assets/images/video.mp4";
 
 export default function Banner() {
     return (

@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import sliderImage1 from "../assets/images/slider-1.jpg";
-import sliderImage2 from "../assets/images/slider-2.jpg";
-import sliderImage3 from "../assets/images/slider-3.jpg";
+// import sliderImage1 from "../assets/images/slider-1.jpg";
+// import sliderImage2 from "../assets/images/slider-2.jpg";
+// import sliderImage3 from "../assets/images/slider-3.jpg";
 
 export default function Slider() {
   return (

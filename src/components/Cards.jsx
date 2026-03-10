@@ -1,6 +1,6 @@
-import cardImg1 from "../assets/images/card-1.png";
-import cardImg2 from "../assets/images/card-2.png";
-import cardImg3 from "../assets/images/card-1.png";
+// import cardImg1 from "../assets/images/card-1.png";
+// import cardImg2 from "../assets/images/card-2.png";
+// import cardImg3 from "../assets/images/card-1.png";
 import { Count } from "../App";
 
 export default function Cards() {
@@ -11,11 +11,11 @@ export default function Cards() {
           <h2>Welcome to the Universe</h2>
           <div className="card-group gap-3">
             <div className="card shadow border-0">
-              <img
+              {/* <img
                 src={cardImg1}
                 className="card-img-top"
                 alt="card-group-image"
-              />
+              /> */}
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -28,11 +28,11 @@ export default function Cards() {
               </div>
             </div>
             <div className="card shadow border-0">
-              <img
+              {/* <img
                 src={cardImg1}
                 className="card-img-top"
                 alt="card-group-image"
-              />
+              /> */}
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -46,11 +46,11 @@ export default function Cards() {
               </div>
             </div>
             <div className="card shadow border-0">
-              <img
+              {/* <img
                 src={cardImg3}
                 className="card-img-top"
                 alt="card-group-image"
-              />
+              /> */}
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">

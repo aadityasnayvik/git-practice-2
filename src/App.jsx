@@ -3,7 +3,7 @@ import { useState } from "react";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
-import logo from "./assets/images/logo.svg";
+// import logo from "./assets/images/logo.svg";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <nav className="navbar navbar-expand-xl navbar-light shadow">
         <div className="container">
           <Link className="navbar-brand d-flex align-items-center" to="/">
-            <img src={logo} alt="Site logo" className="img-fluid" />
+            {/* <img src={logo} alt="Site logo" className="img-fluid" /> */}
           </Link>
           <button
             className="navbar-toggler"
