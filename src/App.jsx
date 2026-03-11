@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
-import Home from "./pages/Home.jsx";
+// import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import logo from "./assets/images/logo.svg";
@@ -75,7 +75,6 @@ export default function App() {
     </>
   );
 }
-
 // count component
 export function Count() {
   const [count, setCount] = useState(2);
@@ -90,7 +89,6 @@ export function Count() {
     </>
   );
 }
-
 // increase count
 export function Increase() {
   const [count, setCount] = useState(10);
