@@ -26,10 +26,8 @@ function MyCar() {
         It is a {color} {model} from {year}.
       </p>
 
-   
-                                  <h1>The wrong commit- part- 2</h1>
-   
-   
+            <h1>The wrong commit</h1>   
+
     </>
   )
 }
