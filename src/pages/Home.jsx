@@ -26,7 +26,9 @@ function MyCar() {
         It is a {color} {model} from {year}.
       </p>
 
-            <h1>The wrong commit</h1>   
+            <h1>The wrong commit</h1>  
+                        <h1>The galat commit 16/03/2026</h1>   
+ 
 
     </>
   )
